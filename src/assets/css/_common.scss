@@ -1,0 +1,51 @@
+html, body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+h1 {
+    font-size: $header-font-size-1;
+}
+
+h2 {
+    font-size: $header-font-size-2;
+}
+
+h3 {
+    font-size: $header-font-size-3;
+}
+
+label {
+    font-size: $body-font-size-3;
+}
+
+button {
+    font-size: $button-font-size;
+}
+
+.App {
+    overflow: hidden;
+}
+
+h1, h2 {
+    font-size: 34px;
+}
+
+.middle-line {
+    margin-top: 10px;
+    width: 1px;
+    height: 40px;
+    background: #ff0022
+}
+
+.botton-line {
+    width: 180px;
+    height: 1px;
+    background: #ff0022;
+    position: relative;
+    margin: 0 10px;
+}
+
+.w-70 {
+    width: 70% !important;
+}

@@ -1,0 +1,324 @@
+#root {
+    overflow: hidden;
+}
+
+content {    
+    // position: absolute;
+    // left: 0;
+    // right: 0;
+    background-size: cover;    
+    // background: url(https://avatars.mds.yandex.net/get-pdb/1748902/e99b9dfc-3c94-4be7-a813-a49267e93e52/orig) no-repeat;
+
+    h2 {
+        color: #e53d3a;
+    }
+}
+
+.content-content {
+background: #f9f9f7;
+    overflow: hidden;
+}
+
+
+
+.content-title-line {
+    max-width: 85px;
+    height: 2px;
+    background: #e70c17;
+}
+
+.linet-1 {
+    max-width: 50px;
+}
+
+.linet-2 {
+    max-width: 20px;
+}
+
+.content_body {
+    margin-top: 20px;
+}
+
+// .content_body2 {
+//     margin-top: 30px;
+//     width: 100%;
+//     height: 300px;
+//     background-image: url(https://wp.bwlthemes.com/wp_reddrop_buddies/wp-content/uploads/2017/06/counter_bg.jpg?id=2125) !important;
+//     background-position: center;
+//     background-repeat: no-repeat;
+//     background-size: cover !important;
+// }
+
+.bld-item {
+    vertical-align: center;
+}
+
+.bld-item-1 {
+    margin: 0;
+    background: #fff;
+    padding: 24px;
+    border-radius: 10px;
+}
+
+.btnreg {
+    color: #fff;
+    width: 180px;
+    height: 42px;
+    border-radius: 8px;
+}
+
+.btn_bloodType{
+    border: 1px solid #66615b;
+    width: 55px;
+    height: 32px; 
+    margin: 10px 8px;;
+    border-radius: 10px;
+    font-size: 13px;
+    background: #fff;
+    color: #66615b;
+}
+
+// .card-body {
+    // background: #f94340;
+//     background: #f2f2f2;
+// }
+
+// .card {
+    // box-shadow: 3px 4px 10px 9px #e70c17;
+    // box-shadow: 9px 6px 10px 9px #f2585a;
+//     border: 1px;
+// }
+
+
+.content-title {
+    // background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyzVdq-gLiBZO146jYoWdkcbBlLSIl40HceZ0djJzdGsktojAlvA) no-repeat;
+    background-size: cover;
+    // height: 60vh;
+    h2 {
+        font-weight: 600;
+    }
+}
+
+/** content by hna **/
+
+.cardbody{
+    background-color:#F9F9F7;
+    z-index:-1;
+    // display: inline-block;
+}
+.cardbody .box{
+// margin: 0 0 30px;
+display: block;
+overflow:hidden;
+position:relative;
+box-shadow: 0 2px 5px rgba(0,0,0, .2);
+border-radius: 10px;
+-webkit-transition: transform .3s cubic-bezier(.34,2,.6,1),box-shadow .2s ease;
+-webkit-transition: -webkit-transform .3s cubic-bezier(.34,2,.6,1),-webkit-box-shadow .2s ease;
+    transition: -webkit-transform .3s cubic-bezier(.34,2,.6,1),-webkit-box-shadow .2s ease;
+transition: transform .3s cubic-bezier(.34,2,.6,1),box-shadow .2s ease;
+transition: transform .3s cubic-bezier(.34,2,.6,1),box-shadow .2s ease,-webkit-transform .3s cubic-bezier(.34,2,.6,1),-webkit-box-shadow .2s ease;
+}
+.cardbody .box:hover{
+box-shadow:0px 5px 10px rgba(0,0,0,.15);
+    transform: translateY(-10px);
+-webkit-transition: 0.2s ease;
+transition: 0.2s ease;
+}
+.cardbody .card-body{
+// min-height:200px;
+height: 240px;
+}
+.cardbody .box .card-body .card-icon {
+    font-size: 40px;
+color :#fff;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    padding: 30px 0 10px;
+}
+.cardbody .box .card-body .card-title {
+margin: 5px 0 0 0;
+font-size: 2.5em;
+    line-height: 1.2em;
+    line-height: 1.5em;
+}
+// .cardbody .box .card-body .card-description {
+//     color: #011;
+    
+// }
+
+.card-title {
+    color: #e70c17;
+}
+.card-color {
+    background: #fff;
+
+    // &:hover {
+    //     background: #ff0011
+    // }
+}
+
+.btn-round {
+    border-radius: 30px;
+}
+.cardbody .btn-neutral {
+    margin-top:10px;
+    margin-bottom:10px;
+    background-color: #fff;
+    border-color: #fff;
+    color: #fff;
+    opacity: 1;
+    filter: alpha(opacity=100);
+    color: #66615b;
+    box-sizing: border-box;
+    border-width: 2px;
+    font-size: 12px;
+    font-weight: 600;
+    padding: .5rem 28px;
+    line-height: 2;
+    cursor: pointer;
+    text-transform: uppercase;
+    -webkit-transition: all .15s linear;
+    transition: all .15s linear;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+}
+
+.card-img, .card-title {
+    width: 50%;
+}
+
+.registerSession {
+    padding: 60px 0 40px;
+    background: url(https://cdn.pixabay.com/photo/2012/03/01/00/36/abstract-19731__340.jpg) no-repeat;
+    background-size: cover;
+    color: #fff;
+    height: 100vh;
+
+    .reg_img {
+        
+        img {
+            width: 100%;
+        }
+    }
+
+    .regform {
+        border-radius: 20px;
+        
+    }
+
+
+    label {
+        font-size: 14px;
+    }
+
+    input[type="radio"] {
+        margin-top: 4px;
+    }
+
+    
+}
+
+#location {
+    font-size: 14px;
+}
+
+option {
+    font-size: 14px;
+}
+
+.btn_donate {
+    background: #e70c17;
+    border: none;
+    font-size: 11px;
+}
+
+.carousel-img {
+    
+    img {
+        width: 100%;
+        height: 90vh;
+    }
+}
+
+.btn-donate {
+    height: 46px;
+    background: #e53d3a;
+    border-radius: 7px;
+    width: 200px;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+.figure {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSCK3GV1YzDMvzKYMxwBcPNJec7uxqv4AtojV9Kv8LDOjqJ_vj);
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    border: 1px solid #F9F9F7;
+    background-size: contain;
+}
+
+.step-card {
+    display: inline-block;
+}
+
+.step-title {
+    border-top: 2px solid #e53d3a;
+    color: #e53d3a;
+    text-align: center;
+    margin-bottom: 30px;
+    
+    h3 {
+        margin-top: 20px;
+    }
+}
+
+.step-botline {
+    width: 100px;
+    height: 4px;
+    background: #635b53;
+    margin: 5px auto;
+}
+
+.donorimg {
+    height: 63vh;
+    opacity: 0.7;
+
+    img {
+        width: 100vw;
+        height: 100%;
+    }
+}
+
+.btnDonate {
+    text-align: center;
+    padding: 30px 0;
+
+    button {
+        width: 330px;
+        height: 50px;
+        border-radius: 10px;
+        color: #fff;
+        font-size: 15px;
+        background: #d64635;
+        border: none;
+    }
+
+    .donorTitile {
+        h3 {
+            color: #e53d3a;
+        }
+    }
+
+}
